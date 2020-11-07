@@ -19,7 +19,6 @@ import domain.SymptomFactory;
 			p.addSymptom(new Symptom("s3", 10, 10), 3);
 			p.addSymptom(new Symptom("s4", 10, 10), 4);
 			p.addSymptom(new Symptom("s5", 10, 10), 5);
-			
 			Iterator i=p.iterator();
 			while(i.hasNext())
 				System.out.println(i.next());
